@@ -1,4 +1,4 @@
-#Jonathan Lara Segovia
+#Jonathan Lara Segovia https://github.com/JohnTravisCano69/ChatGTP/tree/main
 
 import json
 import os
@@ -59,7 +59,7 @@ from adafruit_ticks import ticks_add, ticks_less, ticks_ms
 # Invent and vividly describe an alien species. write one paragraph
 
 prompt=os.getenv("MY_PROMPT", """
-Dame un presidente aleatorio a nivel mundial""").strip()
+Dame la capital de un pais aleatorio""").strip()
 please_wait=os.getenv("Por favor, Espera un momento", """
 Buscando....
 """).strip()
